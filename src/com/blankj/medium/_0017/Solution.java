@@ -1,4 +1,4 @@
-package com.blankj.medium._017;
+package com.blankj.medium._0017;
 
 import java.util.Collections;
 import java.util.LinkedList;
@@ -32,7 +32,7 @@ public class Solution {
 //        }
 //    }
 
-    private static String[] map = new String[]{"abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
+    private static final String[] map = new String[]{"abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
 
     public List<String> letterCombinations(String digits) {
         if (digits.length() == 0) return Collections.emptyList();

@@ -1,4 +1,4 @@
-package com.blankj.hard._044;
+package com.blankj.hard._0044;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -57,7 +57,9 @@ public class Solution {
 
     public List<String> fullJustify(String[] words, int maxWidth) {
         int len = words.length;
-        if (len == 0) return Collections.emptyList();
+        if (len == 0) {
+            return Collections.emptyList();
+        }
         List<String> ans = new ArrayList<>();
         StringBuilder spaces = new StringBuilder();
         for (int i = 0; i < maxWidth; ++i) {
